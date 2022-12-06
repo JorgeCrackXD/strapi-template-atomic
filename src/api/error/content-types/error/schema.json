@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "errors",
+  "info": {
+    "singularName": "error",
+    "pluralName": "errors",
+    "displayName": "Error"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "errorCode": {
+      "type": "integer"
+    },
+    "path": {
+      "type": "string"
+    },
+    "method": {
+      "type": "string"
+    },
+    "body": {
+      "type": "json"
+    },
+    "userId": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "message": {
+      "type": "string"
+    },
+    "stack": {
+      "type": "richtext"
+    }
+  }
+}
