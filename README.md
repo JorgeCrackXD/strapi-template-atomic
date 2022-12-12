@@ -1,4 +1,4 @@
-# 🚀 Getting started with Strapi
+# 🚀 Getting started with this Strapi Template with global error handling and logger.
 
 Strapi comes with a full featured [Command Line Interface](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html) (CLI) which lets you scaffold and manage your project in seconds.
 
@@ -32,9 +32,9 @@ npm run build
 yarn build
 ```
 
-## ⚙️ Deployment
+## ⚙️ Error managment
 
-Strapi gives you many possible deployment options for your project. Find the one that suits you on the [deployment section of the documentation](https://docs.strapi.io/developer-docs/latest/setup-deployment-guides/deployment.html).
+This template contains a global error handler in the file ``bootstrap.js` in API folder and that handler allows to remove all try catch from controllers and services ( If a custom error or specific error can be thrown, you still have to use a try catch block ) and all the error are gonna be processed and catched by that file.
 
 ## 📚 Learn more
 
