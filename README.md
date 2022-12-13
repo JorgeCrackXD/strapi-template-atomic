@@ -35,7 +35,7 @@ yarn build
 
 ## ⚙️ Error managment
 
-This template contains a global error handler in the file ``bootstrap.js` in API folder and that handler allows to remove all try catch from controllers and services ( If a custom error or specific error can be thrown, you still have to use a try catch block ) and all the error are gonna be processed and catched by that file.
+This template contains a global error handler in the file `bootstrap.js` in API folder and that handler allows to remove all try catch from controllers and services ( If a custom error or specific error can be thrown, you still have to use a try catch block ) and all the error are gonna be processed and catched by that file.
 
 ## Error Structure
 The error logged have the next properties:
