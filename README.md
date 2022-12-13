@@ -1,9 +1,10 @@
 # 🚀 Getting started with this Strapi Template with global error handling and logger.
+## How run the template.
 
 ### `npm install`
 This template comes without node_modules installed. First thing you have to do after cloning the project is run the comand `npm install` to install all the necessary modules.
 
-### `develop`
+### `npm run develop`
 
 To run the application run the next command. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
 
