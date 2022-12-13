@@ -55,13 +55,13 @@ try{
 
 ## Error Structure
 The error logged have the next properties:
-- ErrorCode: Http code
-- Path: The url of the endpoint
-- Method: The method of the request (GET, POST, PUT, DEL)
-- userId: The user that generates the error.
-- Body: Body of the request
-- name: The type of the error.
-- stack: The stack trace of the error to know what is happening and where exactly the error ocurrs.
+- **ErrorCode**: Http code
+- **Path**: The url of the endpoint
+- **Method**: The method of the request (GET, POST, PUT, DEL)
+- **userId**: The user that generates the error.
+- **Body**: Body of the request
+- **name**: The type of the error.
+- **stack**: The stack trace of the error to know what is happening and where exactly the error ocurrs.
 
 ## 📚 Learn more
 
