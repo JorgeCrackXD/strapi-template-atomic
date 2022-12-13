@@ -37,6 +37,15 @@ yarn build
 
 This template contains a global error handler in the file ``bootstrap.js` in API folder and that handler allows to remove all try catch from controllers and services ( If a custom error or specific error can be thrown, you still have to use a try catch block ) and all the error are gonna be processed and catched by that file.
 
+## Error Structure
+The error logged have the next properties:
+- ErrorCode: Http code
+- Path: The url of the endpoint
+- Method: The method of the request (GET, POST, PUT, DEL)
+- Body: Body of the request
+- name: The type of the error.
+- stack: The stack trace of the error to know what is happening and where exactly the error ocurrs.
+
 ## 📚 Learn more
 
 - [Resource center](https://strapi.io/resource-center) - Strapi resource center.
