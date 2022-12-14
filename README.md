@@ -4,7 +4,7 @@
 ### `npm install`
 This template comes without node_modules installed. First thing you have to do after cloning the project is run the comand `npm install` to install all the necessary modules.
 
-### `npm npm run strapi admin:reset-user-password`
+### `npm run strapi admin:reset-user-password`
 This template comes without a admin user. To create a new user you have to run the command and after that the console will ask you for a Username (email) and a password. 
 
 ### `npm run develop`
