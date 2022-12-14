@@ -4,9 +4,6 @@
 ### `npm install`
 This template comes without node_modules installed. First thing you have to do after cloning the project is run the comand `npm install` to install all the necessary modules.
 
-### `npm run strapi admin:reset-user-password`
-This template comes without a admin user. To create a new user you have to run the command and after that the console will ask you for a Username (email) and a password. 
-
 ### `npm run develop`
 
 To run the application run the next command. [Learn more](https://docs.strapi.io/developer-docs/latest/developer-resources/cli/CLI.html#strapi-develop)
@@ -16,6 +13,14 @@ npm run develop
 # or
 yarn develop
 ```
+
+### `Default user`
+
+The default user of the collection is:
+-**Username**: jorge.cantu@atomic32.com
+--**Password**: Atomic123*
+
+With this user you can access to admin panel and create new admin user if you need.
 
 ## ⚙️ Error managment
 
