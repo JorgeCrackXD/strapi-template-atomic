@@ -1,6 +1,9 @@
 # 🚀 Getting started with this Strapi Template with global error handling and logger.
 ## How run the template.
 
+### `git clone`
+You have to clone this repository in your system.
+
 ### `npm install`
 This template comes without node_modules installed. First thing you have to do after cloning the project is run the comand `npm install` to install all the necessary modules.
 
