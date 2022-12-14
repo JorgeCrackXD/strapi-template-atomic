@@ -18,6 +18,7 @@ yarn develop
 
 The default user of the collection is:
 -**Username**: jorge.cantu@atomic32.com
+#
 -**Password**: Atomic123*
 
 With this user you can access to admin panel and create new admin user if you need.
