@@ -1,7 +1,7 @@
 # 🚀 Getting started with this Strapi Template with global error handling and logger.
 ## How run the template.
 
-### `git clone`
+### `git clone "repo-url"`
 You have to clone this repository in your system.
 
 ### `npm install`
