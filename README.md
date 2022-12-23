@@ -4,6 +4,12 @@
 ### `git clone "repo-url"`
 You have to clone this repository in your system.
 
+### ``Checkout to the branch you need.`
+In this template you can find some branches with the next names:
+- **master:** This branch is the default branch with the implementation of default databse integrated with the server (you dont need to configure nothing more).
+- **feature/mysql-database:** This branch is configured to deploy the server with the integration of MySql type databse.
+- **feature/postgresql-database:** This branch is configured to deploy the server with the integration of PostgreSql type databse.
+
 ### `npm install`
 This template comes without node_modules installed. First thing you have to do after cloning the project is run the comand `npm install` to install all the necessary modules.
 
@@ -17,13 +23,9 @@ npm run develop
 yarn develop
 ```
 
-### `Default user`
+### `Create first admin user`
 
-The default user of the collection is:
-- **Username**: jorge.cantu@atomic32.com
-- **Password**: Atomic123*
-
-With this user you can access to admin panel and create new admin user if you need.
+When the server is running with the last command, you can make the first admin user filling the data requested in the shown form.
 
 ## ⚙️ Error managment
 
