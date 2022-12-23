@@ -1,10 +1,10 @@
 # 🚀 Getting started with this Strapi Template with global error handling and logger.
 ## How run the template.
 
-### `git clone "repo-url"`
+### `git clone "repo-url`
 You have to clone this repository in your system.
 
-### ``Checkout to the branch you need.`
+### `Checkout to the branch you need`
 In this template you can find some branches with the next names:
 - **master:** This branch is the default branch with the implementation of default databse integrated with the server (you dont need to configure nothing more).
 - **feature/mysql-database:** This branch is configured to deploy the server with the integration of MySql type databse.
