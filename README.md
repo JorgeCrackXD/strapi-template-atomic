@@ -10,6 +10,20 @@ In this template you can find some branches with the next names:
 - **feature/mysql-database:** This branch is configured to deploy the server with the integration of MySql type databse.
 - **feature/postgresql-database:** This branch is configured to deploy the server with the integration of PostgreSql type databse.
 
+### Enviroment data
+In case you are using a branch different from **master** you have to copy in your **.env** file the next code block:
+```
+## Database connection
+DATABASE_CLIENT=
+DATABASE_HOST=
+DATABASE_PORT=
+DATABASE_NAME=
+DATABASE_USERNAME=
+DATABASE_PASSWORD=
+DATABASE_SSL=
+```
+The information per line is the information about the database you want to connect (this is generic)
+
 ### `npm install`
 This template comes without node_modules installed. First thing you have to do after cloning the project is run the comand `npm install` to install all the necessary modules.
 
